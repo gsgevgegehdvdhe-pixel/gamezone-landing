@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b0712;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 60px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 35px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    background: #a855f7;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
+    min-height: 500px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #b8b4c5;
+    margin-bottom: 35px;
+}
+
+.hero-button {
+    display: inline-block;
+    background: #a855f7;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 450px;
+    border-radius: 20px;
+}
+.advantages {
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.advantages h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.advantages-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width: 280px;
+    padding: 30px;
+    background: #15101f;
+    border: 1px solid #2b1b3d;
+    border-radius: 15px;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #b9a9ca;
+    line-height: 1.6;
+}
+.pricing {
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.price-card {
+    width: 280px;
+    padding: 35px 30px;
+    background: #15101f;
+    border: 1px solid #2b1b3d;
+    border-radius: 15px;
+}
+
+.price-card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;
+    color: #a855f7;
+    margin-bottom: 25px;
+}
+
+.price-card p {
+    color: #b9a9ca;
+    margin: 15px 0;
+}
+
+.price-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #a855f7;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.featured {
+    border: 2px solid #a855f7;
+    transform: scale(1.05);
+}
+/* ПЕРЕВАГИ */
+
+.benefits {
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.benefits h2 {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    width: 280px;
+    min-height: 180px;
+    padding: 30px;
+    background: #151020;
+    border: 1px solid #8a55f7;
+    border-radius: 18px;
+    text-align: left;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card p {
+    color: #b9a9d6;
+    line-height: 1.7;
+}
+
+
+/* ТАРИФИ */
+
+.pricing {
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.price-card {
+    width: 260px;
+    padding: 35px;
+    background: #151020;
+    border: 1px solid #8a55f7;
+    border-radius: 18px;
+}
+
+.price-card h3 {
+    font-size: 24px;
+}
+
+.price {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.price-card p {
+    color: #b9a9d6;
+    margin-bottom: 25px;
+}
+
+.price-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #8a55f7;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.popular {
+    transform: scale(1.05);
+}
+
+
+/* КОНТАКТИ */
+
+.contacts {
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.contacts h2 {
+    font-size: 45px;
+}
+
+.contacts p {
+    color: #b9a9d6;
+    font-size: 20px;
+    margin: 20px 0 30px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.button,
+.hero-button,
+.price-button {
+    transition: 0.3s;
+}
+
+.button:hover,
+.hero-button:hover,
+.price-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 20px #8a55f7;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px rgba(138, 85, 247, 0.4);
+}
+/* 📱 АДАПТИВ */
+
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        gap: 25px;
+        padding: 25px;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 60px 25px;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 42px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .cards,
+    .prices {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card,
+    .price-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .popular {
+        transform: none;
+    }
+
+    .benefits,
+    .pricing {
+        padding: 70px 20px;
+    }
+}
